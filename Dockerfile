@@ -1,5 +1,5 @@
 # Use an official Python base image from the Docker Hub
-FROM python:3.11-slim
+FROM python:3.13.0rc2-slim
 
 # Install git
 RUN apt-get -y update
